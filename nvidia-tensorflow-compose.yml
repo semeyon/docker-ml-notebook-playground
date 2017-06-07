@@ -1,7 +1,7 @@
 services:
   tensorflow_test_gpu:
     build: ./images/tensorflow
-    command: python3 gpu_test.py
+    command: sleep infinity
     devices:
     - /dev/nvidia0
     - /dev/nvidiactl
