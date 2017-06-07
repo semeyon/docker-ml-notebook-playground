@@ -1,7 +1,7 @@
 version: '2'
 
 services:
-  tensorflow_test_gpu:
+  jupyter_notebook_gpu:
     build: ./images/tensorflow
     volumes: 
       - ./images/tensorflow/code:/code
